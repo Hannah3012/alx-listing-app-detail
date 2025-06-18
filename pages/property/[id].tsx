@@ -10,7 +10,9 @@ export default function PropertyPage() {
   if (!property) return <p>Property not found</p>;
   return (
     <div>
+
       <PropertyDetail property={property} />
+      
     </div>
   );
 }
